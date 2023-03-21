@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
         backgroundColor: _backgroundColor,
         body: Center(
           child: ElevatedButton(
-            child: Text('Change Backgrounddd Color'),
+            child: Text('Change Background Color'),
             onPressed: _changeBackgroundColor,
           ),
         ),
