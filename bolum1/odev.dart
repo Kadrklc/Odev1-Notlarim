@@ -2,7 +2,7 @@ void main(List<String> args) {
   String ad = "kadir";
   var soyad = "kılıç";
   int yas = 24;
-
+  
   print(
       "benim adim $ad $soyad, yaşım $yas ve tüm isimdeki karakter sayısı ${ad.length + soyad.length}'dur.");
   print(
