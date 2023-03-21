@@ -1,9 +1,11 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   _MyAppState createState() => _MyAppState();
 }
@@ -48,11 +50,11 @@ _buttonColor = Color.fromRGBO(
         child: Center(
             child: ElevatedButton(
           onPressed: _changeColor,
-          child: Text("Change Color"),
           style: ElevatedButton.styleFrom(
               foregroundColor: _backroundColor,
               backgroundColor: _buttonColor,
               textStyle: TextStyle(fontSize: 45, backgroundColor: _textColor)),
+          child: const Text("Change Color"),
         )),
       ),
     ));
